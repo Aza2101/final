@@ -1,0 +1,45 @@
+.header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__menu{
+        display: flex;
+    }
+    &__item{
+        margin-left: 40px;
+        list-style: none;
+    }
+    &__link{
+        position: relative;
+        color: #fff;
+        &:hover{
+            text-decoration: none;
+            color: #fff;
+        }
+        &::after{
+            display: block;
+            position: absolute;
+            left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+            width: 0;/*задаём длинну линии до наведения курсора*/
+            height: 2px; /*задаём ширину линии*/
+            background-color: #fff; /*задаём цвет линии*/
+            content: "";
+            transition: width 0.3s ease-out; /*задаём время анимации*/
+        }
+        &:hover:after, 
+        &:focus:after {
+            width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+        }   
+    }
+}
+#dropdownMenuLink{
+    background: none;
+    border: none;
+}

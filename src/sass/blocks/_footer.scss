@@ -1,0 +1,38 @@
+.footer{
+    padding: 20px 0;
+    width: 1680px;
+    margin: 0 auto;
+    color: #fff;
+    hr{
+        background-color: #333;
+        height: 0.1px;
+    }
+    &__header{
+        font-size: 34px;
+        font-family: serif;
+        margin-bottom: 30px;
+    }
+    &__text{
+        margin-top: 30px;
+        width: 657px;
+        font-size: 14px;
+        color: #999;
+    }
+    &__icons{
+        margin-top: 20px;
+        i {
+            margin: 10px;
+            width: 27px;
+            height: 27px;
+        }
+    }
+    &__img{
+        display: flex;
+        height: 28px;
+        justify-content: space-around;
+    }
+    &__website{
+        font-size: 14px;
+        color: #999;
+    }
+}

@@ -1,0 +1,23 @@
+.design{
+    height: 415px;
+    color: #333;
+    padding: 50px 0;
+    background-color: #fff;
+    width: 1680px;
+    margin: 0 auto;
+    .container{
+        display: flex;
+    }
+    &__descr{
+        width: 580px;
+        margin-right: 60px;
+    }
+    &__header{
+        font-size: 35px;
+        font-family: serif;
+    }
+    &__text{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+}

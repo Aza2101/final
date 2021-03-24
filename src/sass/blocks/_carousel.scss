@@ -1,0 +1,38 @@
+.carousel{
+    height: 800px;
+    background-color: #000;
+    color: #fff;
+    width: 1680px;
+    margin: 0 auto;
+    &__history{
+        position: absolute;
+        background: none;
+        top: 50px;
+        left: 250px;
+        font-size: 48px;
+        font-family: serif;
+    }
+    &__button{
+        position: absolute;
+        background: none;
+        top: 140px;
+        left: 250px;
+        width: 96px;
+        border: none;
+        background-color: #333;
+        padding: 7px 20px;
+        &:hover{
+            background-color: #000;
+            transition: 0.5s;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+.carousel-item{
+    height: 800px;
+    position: relative;
+}
+

@@ -1,0 +1,30 @@
+.history{
+    width: 1680px;
+    margin: 0 auto;
+    height: 720px;
+    padding: 70px;
+    background: url('../../img/classic-history.jpeg')center center/cover no-repeat;
+    &__square{
+        height: 360px;
+        width: 360px;
+        padding: 40px;
+        background-color: #000;
+        color: #fff;
+    }
+    &__place{
+        font-size: 15px;
+    }
+    &__line{
+        margin-top: 20px;
+        width: 60px;
+        height: 2px;
+        background-color: #fff;
+    }
+    &__header{
+        margin-top: 25px;
+        font-family: serif;
+    }
+    &__descr{
+        margin-top: 20px;
+    }
+}

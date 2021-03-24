@@ -1,0 +1,15 @@
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #000;
+}
+
+@import 'blocks/header';
+@import 'blocks/carousel';
+@import 'blocks/design';
+@import 'blocks/history';
+@import 'blocks/footer';
