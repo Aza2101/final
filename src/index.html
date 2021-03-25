@@ -30,13 +30,72 @@
                       </a>
                     
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Russian</a>
-                        <a class="dropdown-item" href="#">English(UK)</a>
+                        <a id="Rus" class="dropdown-item" href="#">Russian</a>
+                        <a id="Eng" class="dropdown-item" href="#">English(UK)</a>
                       </div>
                     </div></li>
                 </ul>
             </nav>
         </div>
+
+        <div class="sign_in">
+          <!-- Button trigger modal -->
+          <button type="button" class="black btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Login
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title" id="exampleModalLabel">Login</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form action="#" class="feed-form">
+                    <input name="email" required placeholder="E-mail" type="email" class="input ">
+                    <input name="password" placeholder="Password" type="password" class="input">
+                    <button type="submit" class="input btn-center btn btn-primary" >Enter</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sign_up">
+          <!-- Button trigger modal -->
+          <!-- Button trigger modal -->
+          <button type="button" class="black btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+            Registration
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Registration</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form action="#" class="feed-form">
+                    <input name="email" required placeholder="E-mail" type="email" class="input">
+                    <input id="txtPassword" required name="password" placeholder="Password" type="password" class="input">
+                    <input id="txtConfirmPassword" required name="password" placeholder="Re-password" type="password" class="input">
+                    <button type="submit" class="input btn-center btn btn-primary" >Enter</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
     </header>
 
     <section class="carousel">

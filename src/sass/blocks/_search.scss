@@ -1,0 +1,19 @@
+.search {
+    position: relative;
+    width: 1680px;
+    margin: 0 auto;
+    height: 90px;
+    background-color: #141414;
+    padding: 25px 0;
+    &__input{
+        width: 100%;
+        position: relative;
+    }
+    &__btn{
+        position: absolute;
+        right: 300px;
+        top: 33px;
+        background-color: #fff;
+        border: none;
+    }
+}

@@ -4,7 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "json:server": "json-server --watch db.json"
   },
   "author": "",
   "license": "ISC",
@@ -22,5 +22,8 @@
     "> 1%",
     "maintained node versions",
     "not dead"
-  ]
+  ],
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
 }

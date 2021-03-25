@@ -1,0 +1,37 @@
+.sign_up{
+    margin-right: 111px;
+}
+
+.black{
+    background-color: #000;
+    border: none;
+    &:hover{
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+.modal-content{
+    width: 400px;
+    background-color: rgb(230, 230, 230)
+}
+
+.modal-title{
+    color: #000;
+    margin-left: 140px;
+}
+
+.btn-center{
+    background: #000;
+}
+.input{
+    width: 300px;
+    margin-left: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input{
+    height: 46px;
+}
