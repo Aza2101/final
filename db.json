@@ -4,6 +4,26 @@
             "id":"1",
             "email":"qwert@gmail.com",
             "password":"!Qwert123"
+        },
+        {
+            "id":"2",
+            "email":"aza.sula1@mail.ru",
+            "password":"!Qwert123"
+        },
+        {
+            "id":"3",
+            "email":"asdf@gmail.com",
+            "password":"!Qwert123"
+        },
+        {
+            "id":"4",
+            "email":"zxcvb@gmail.com",
+            "password":"!Qwert123"
+        },
+        {
+            "id":"5",
+            "email":"rtyui@gmail.com",
+            "password":"!Qwert123"
         }
     ]
 }

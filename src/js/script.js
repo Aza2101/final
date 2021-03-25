@@ -73,7 +73,7 @@ document.querySelector('#elastic').oninput = function () {
         elasticItems.forEach(function (elem) {
             if (elem.innerText.search(val) == -1) {
                 elem.classList.add('hide');
-                elem.innerHTML = elem.class;
+                elem.innerHTML = elem.innerText;
             }
             else {
                 elem.classList.remove('hide');
@@ -85,7 +85,7 @@ document.querySelector('#elastic').oninput = function () {
     else {
         elasticItems.forEach(function (elem) {
             elem.classList.remove('hide');
-            elem.innerHTML = elem.class;
+            elem.innerHTML = elem.innerText;
         });
     }
 }
